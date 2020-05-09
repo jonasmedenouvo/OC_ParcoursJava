@@ -1,0 +1,41 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+#container{
+	display: flex;
+	height: 100%;
+}
+aside{
+/*	border:solid;
+*/	width: 15%;
+padding: 1%;
+background-color: aqua;
+}
+aside>h3{
+	background-color: lightgrey;
+	text-align: center;
+}
+main{
+/*	border:solid;
+*/	flex:1;
+padding: 1%;
+}
+main>h3{
+	border-bottom-style: solid;
+	padding-bottom: 10px;
+	text-decoration-skip: ink;
+}
+.bas{
+	position: absolute;
+	margin-left: 4%;
+
+}
+#photo{
+	padding-top: 10%;
+	border-radius: 50%;
+	width: 40%;
+	margin-left: 30%;
+	padding-bottom: 10%;
+	height: 15%;
+}
