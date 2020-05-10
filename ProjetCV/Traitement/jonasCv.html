@@ -11,7 +11,8 @@
 	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </head>
 <body>
-	<div id="container">
+	<div class="container">
+		<!-- Barre de navigation gauche -->
 		<aside>
 			<img id="photo" src="img/homer.png" alt="homerGodfather">
 			
@@ -50,11 +51,27 @@
 			</div>
 			<div></div>
 			<h3>A PROPOS DE MOI</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, accusamus sint magnam? Esse sit quam aliquid inventore voluptas fugit enim, ab, quaerat laborum vitae atque rerum voluptate recusandae, ea id.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, accusamus sint magnam? Esse sit quam aliquid inventore voluptas fugit enim, ab, quaerat laborum vitae atque rerum voluptate recusandae, ea id.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, accusamus sint magnam? Esse sit quam aliquid inventore voluptas fugit enim, ab, quaerat laborum vitae atque rerum voluptate recusandae, ea id.</p>
+
 			<h3 class="bas">LOISIRS</h3>
+
+			<div class="icon-loisir">
+				<span class="material-icons">
+					pool
+				</span>
+				<span class="material-icons">
+					sports_basketball
+				</span>
+				<span class="material-icons">
+					book
+				</span>
+			</div>
+			
 
 		</aside>
 
+		<!-- Zone principale -->
 
 		<main>
 			<h1>MJJ</h1>
@@ -67,27 +84,75 @@
 				</span>
 				<span>Formations</span>
 			</h3>
-			<ul>
-				<li>dd</li>
-				<li>dd</li>
-			</ul>
+			<div class="container">
+				<ul class="blocInside">
+					<li><b>2020 (3 mois)</b></li> <br>
+					<br>
+					<li><b>2019-2020 (4 mois)</b></li><br>
+					<br>
+					<li><b>2018-2019 (6 mois)</b></li><br>
+
+				</ul>
+				<ul class="blocInside">
+					<li><span>POEC Java/JEE</span> <br>
+						<span><b>EPSI</b> Bordeaux</span>
+					</li><br>
+					<li><span>POEI Angular/Java</span> <br>
+						<span><b>ASTON</b> Pessac</span>
+					</li><br>				
+					<li><span>Développeur Logiciel (Bac +2)</span> <br>
+						<span><b>LA PISCINE</b> Bordeaux</span>
+					</li><br>
+				</ul>
+			</div>
+			
 			<h3>
 				<span class="material-icons"style=" vertical-align: middle;">
 					business_center
 				</span>
 				<span>Expériences Professionnelles</span> </h3>
-				<ul>
-					<li>dd</li>
-					<li>dd</li>
-				</ul>
+				<div class="container">
+					<ul class="blocInside">
+						<li><b>Depuis le 23/03/2020</b></li> <br>
+						<br>
+						<li><b>2019-2020 (8 mois)</b></li><br>
+						<br>
+						<li><b>2016-2019</b></li><br>
+
+					</ul>
+					<ul class="blocInside">
+						<li><span><b>CONSERTO Bordeaux</b></span> <br>
+							<span> Développeur Java/Jee</span>
+						</li><br>
+						<li><span><b>SQLI Pessac</b></span> <br>
+							<span> Développeur Java/Jee</span>
+						</li><br>				
+						<li><span><b>PRO BTP Mérignac</b></span> <br>
+							<span> Conseiller Client</span>
+						</li><br>
+					</ul>
+				</div>
 				<h3>
 					<span class="material-icons"style=" vertical-align: middle;">
 						create
 					</span> <span>Recommandations</span> </h3>
-					<ul>
-						<li>dd</li>
-						<li>dd</li>
-					</ul>
+					<div class="container" style="text-align: center;">
+						<p class="blocInside">
+							Malcolm X <br>
+							rue de la lutte <br>
+							75000 Paris
+						</p>
+						<p class="blocInside">
+							Martin KING <br>
+							avenue de la liberté <br>
+							33000 Bordeaux
+						</p>
+						<p class="blocInside">
+							Nelson Mandela <br>
+							boulevard du panaficanisme <br>
+							33700 Merignac
+						</p>
+					</div>
 				</main>
 			</div>
 

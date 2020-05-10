@@ -2,33 +2,47 @@ html, body {
 	height: 100%;
 	margin: 0;
 }
-#container{
+.container{
 	display: flex;
-	height: 100%;
 }
 aside{
-/*	border:solid;
-*/	width: 15%;
-padding: 1%;
-background-color: aqua;
+	position: relative;
+	width: 15%;
+	padding: 1%;
+/*	background: url("../img/clavier.jpg") center; 
+*/	
+background-color: #D4D4D8	;
+height: 100%;
+
 }
 aside>h3{
-	background-color: lightgrey;
+	background-color: #F3F4F6;
 	text-align: center;
 }
+.icon-loisir{
+	font-size: 200%;
+	text-align: center;
+
+}
+
 main{
-/*	border:solid;
-*/	flex:1;
-padding: 1%;
+	flex:1;
+	padding: 1%;
+	background: url("../img/light.jpg")no-repeat center fixed;
+	background-size: cover; 
 }
 main>h3{
 	border-bottom-style: solid;
 	padding-bottom: 10px;
-	text-decoration-skip: ink;
+}
+.blocInside{
+/*	border: dotted;
+*/	flex:1;
+
 }
 .bas{
-	position: absolute;
 	margin-left: 4%;
+	margin-top: 40%;
 
 }
 #photo{
