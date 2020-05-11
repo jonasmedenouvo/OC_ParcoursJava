@@ -1,0 +1,123 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+.container{
+	display: flex;
+}
+aside{
+	position: relative;
+	width: 15%;
+	padding: 1%;
+	background-color: #D4D4D8	;
+	height: 100%;
+
+}
+aside>h3{
+	background-color: #F3F4F6;
+	text-align: center;
+}
+.icon-loisir{
+	font-size: 200%;
+	text-align: center;
+
+}
+
+main{
+	flex:1;
+	padding: 1%;
+	background: url("../img/light.jpg")no-repeat center fixed;
+	background-size: cover; 
+}
+main>h3{
+	border-bottom-style: solid;
+	padding-bottom: 10px;
+}
+.blocInside{
+/*	border: dotted;
+*/	flex:1;
+
+}
+.bas{
+	margin-left: 4%;
+	margin-top: 40%;
+
+}
+#photo{
+	padding-top: 10%;
+	border-radius: 50%;
+	width: 40%;
+	margin-left: 30%;
+	padding-bottom: 10%;
+	height: 15%;
+}
+
+/*Responsive Design*/
+
+@media screen and (min-width: 1130px) and (max-width: 1487px)
+{
+	/* Rédigez vos propriétés CSS ici */
+	aside{
+		width: 20%;
+	}
+
+}
+
+@media screen and (min-width: 952px) and (max-width: 1129px)
+{
+	/* Rédigez vos propriétés CSS ici */
+	.dates{
+		visibility: collapse;
+	}
+	main{
+		flex: 1;
+		text-align: center;
+	}
+	aside{
+		flex: 1;
+		text-align: center;
+
+	}
+	.references{
+		flex-direction: column; 
+	}
+	#photo{
+		margin-left: 5%;
+
+	}
+}
+
+@media screen and (max-width: 951px){
+	/*.container{
+		display: none;
+		}*/
+		main{
+			visibility: collapse !important;
+		}
+
+		aside{
+/*		width: 100%;
+*/		flex: 0 0 100%;
+}
+
+}
+
+@media screen and (max-width: 457px){
+	/*.container{
+		display: none;
+		}*/
+		main{
+			visibility: collapse !important;
+		}
+
+		aside{
+/*		width: 100%;
+*/		flex: 0 0 100%;
+}
+
+/*#bottom{
+	visibility: collapse !important;
+
+}*/
+
+}
