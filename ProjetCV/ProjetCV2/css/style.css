@@ -43,6 +43,10 @@ html, body {
 	color: #003668;
 	display:flex;
 }
+.mid>i{
+	background-color: black; 
+	border:solid 1px;
+}
 
 .midRight{
 	flex: 1;
@@ -52,19 +56,26 @@ html, body {
 .midLeft{
 	flex: 1;
 	margin-left:2%;
+	margin-top: 6%;
+	text-align: center;
 }
+
 .bottom{
 	background-color: #003668 ;
 	color: white;
 	flex:1;
-
+}
+.footer>span>a>svg{
+	border:solid 1px #003668;
+	padding: 11px; 
+	background-color: #0377bd !important; 
 }
 .footer{
 	margin-left:2%;
 	margin-top: 2%;
 }
 .footer>img{
-	width: 15%;
-	
+	width: 15%;	
 
 }
+a{color:#FFFFFF;}
